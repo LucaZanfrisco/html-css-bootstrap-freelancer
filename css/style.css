@@ -55,3 +55,13 @@ section:nth-of-type(2n+1){
     background-color: #ccb2a3;
 }
 /* /Section: Portfolio */
+
+/* Section: About */
+#about{
+    color: white;
+    padding-top: 5.5rem;
+    padding-bottom: 3.625rem;
+}
+#about .container{
+    max-width: 990px;
+}
