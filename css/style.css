@@ -1,6 +1,23 @@
 :root{
     --bg-header: #2c3e50;
+    --bg-profile: #1abc9c;
 }
+/* ------- */
 header{
     background-color: var(--bg-header);
+    color: white;
+}
+header .container{
+    max-width: 1140px;
+}
+/* ------- */
+
+/* Main */
+#profile{
+    background-color: var(--bg-profile);
+    color: white;
+    padding: 4.3125rem 0;
+}
+#profile .container{
+    max-width: 620px;
 }
