@@ -1,6 +1,6 @@
 :root{
     --bg-header: #2c3e50;
-    --bg-profile: #1abc9c;
+    --bg-section: #1abc9c;
 }
 /* ------- */
 header{
@@ -13,11 +13,45 @@ header .container{
 /* ------- */
 
 /* Main */
+/* Section: Profile */
+section:nth-of-type(2n+1){
+    background-color: var(--bg-section);
+}
 #profile{
-    background-color: var(--bg-profile);
     color: white;
     padding: 4.3125rem 0;
 }
 #profile .container{
     max-width: 620px;
 }
+/* /Seciton: Profile */
+
+/* Section: Portfolio */
+#portfolio{
+    margin: 90px 0;
+}
+#portfolio .container{
+    max-width: 1140px;
+}
+#portfolio .box{
+    height: 360px;
+}
+.c-1{
+    background-color: #ba4b63;
+}
+.c-2{
+    background-color: #1ea4b6;
+}
+.c-3{
+    background-color: #140f0f;
+}
+.c-4{
+    background-color: #1c83c1;
+}
+.c-5{
+    background-color: #0e38b5;
+}
+.c-6{
+    background-color: #ccb2a3;
+}
+/* /Section: Portfolio */
