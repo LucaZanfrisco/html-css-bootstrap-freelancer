@@ -65,3 +65,15 @@ section:nth-of-type(2n+1){
 #about .container{
     max-width: 990px;
 }
+/* /Section: About */
+
+/* Section: Contact me */
+#contact{
+    margin-top: 5.625rem;
+    margin-bottom: 3.75rem;
+}
+#contact .container{
+    max-width: 650px;
+}
+/* /Section: Contact me */
+/* -------- */
