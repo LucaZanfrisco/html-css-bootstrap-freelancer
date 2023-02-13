@@ -162,12 +162,26 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <!-- Form -->
-                <div class="border-bottom mx-5">
-                    FORM
-                    
-                </div>
-                <!-- /Form -->
-                <div class="mx-5">button</div> 
+                <form>
+                    <div class="form-floating">
+                        <input type="text" class="form-control border-0 border-bottom" id="floatingInput" placeholder="Name">
+                        <label for="floatinInput">Name</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control border-0 border-bottom" id="floatingPassword" placeholder="Email Address">
+                        <label for="floatingPassword">Email Address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="tel" class="form-control border-0 border-bottom" id="floatingNumber" placeholder="Number">
+                        <label for="floatingNumber">Phone Number</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control border-0 border-bottom" name="message" id="floatingTextarea" placeholder="leave a comment here" style="height: 300px;"></textarea>
+                        <label for="floatingTextarea">Message</label>
+                    </div>
+                    <button class="btn mt-3 ms_send">Send</button>
+                </form>
+                <!-- /Form --> 
             </div>
             <!-- /container responsive -->
         </section>
