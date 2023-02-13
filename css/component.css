@@ -34,8 +34,7 @@
 .ms_social{
     border: .125rem solid white;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    padding: 25px;
     position: relative;
     display: inline-block;
 }
