@@ -31,3 +31,18 @@
     font-size: 1.25rem;
     font-weight: bold;
 }
+.ms_social{
+    border: .125rem solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: inline-block;
+}
+.ms_social > *{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
