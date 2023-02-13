@@ -1,11 +1,10 @@
-:root{
-    --bg-header: #2c3e50;
-    --bg-section: #1abc9c;
-    --bg-footer: #3a546d;
-}
+@import "variables.css";
+@import "component.css";
+@import "common.css";
+
 /* ------- */
 header{
-    background-color: var(--bg-header);
+    background-color: var(--ms-primary-color);
     color: white;
 }
 header .container{
@@ -16,7 +15,7 @@ header .container{
 /* Main */
 /* Section: Profile */
 section:nth-of-type(2n+1){
-    background-color: var(--bg-section);
+    background-color: var(--ms-secondary-color);
 }
 #profile{
     color: white;
@@ -24,6 +23,9 @@ section:nth-of-type(2n+1){
 }
 #profile .container{
     max-width: 620px;
+}
+.img-fluid{
+    height: 18.75rem;
 }
 /* /Seciton: Profile */
 
@@ -34,26 +36,10 @@ section:nth-of-type(2n+1){
 #portfolio .container{
     max-width: 1140px;
 }
-#portfolio .box{
-    height: 360px;
-}
-.c-1{
-    background-color: #ba4b63;
-}
-.c-2{
-    background-color: #1ea4b6;
-}
-.c-3{
-    background-color: #140f0f;
-}
-.c-4{
-    background-color: #1c83c1;
-}
-.c-5{
-    background-color: #0e38b5;
-}
-.c-6{
-    background-color: #ccb2a3;
+#portfolio .ms-bars::after,
+#portfolio .ms-bars::before
+{
+    background-color: black;
 }
 /* /Section: Portfolio */
 
@@ -76,18 +62,22 @@ section:nth-of-type(2n+1){
 #contact .container{
     max-width: 650px;
 }
+#contact .ms-bars::after,
+#contact .ms-bars::before{
+    background-color: black;
+}
 /* /Section: Contact me */
 /* -------- */
 
 /* Footer */
 footer{
-    background-color: var(--bg-footer);
+    background-color: var(--ms-primary-light-color);
     color: white;
 }
 footer .container{
     max-width: 1140px;
 }
 #b-footer{
-    background-color: var(--bg-header);
+    background-color: var(--ms-primary-color);
 }
 /* /Footer */

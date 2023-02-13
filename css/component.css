@@ -1,0 +1,24 @@
+.ms-card{
+    overflow: hidden;
+    border-radius: 30px;
+}
+.ms-card > img{
+    max-width: 100%;
+    height: auto;
+}
+.ms-bars::before{
+    content: "";
+    height: .1875rem;
+    width: 6.25rem;
+    vertical-align: middle;
+    background-color: white;
+    display: inline-block;
+}
+.ms-bars::after{
+    content: "";
+    height: .1875rem;
+    width: 6.25rem;
+    vertical-align: middle;
+    background-color: white;
+    display: inline-block;
+}

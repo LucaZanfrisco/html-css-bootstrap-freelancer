@@ -8,6 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- /BootStrap -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /Font Awesome -->
     <title>BootStrap Freelancer</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -30,18 +35,14 @@
         <section id="profile">
             <!-- container responsive-->
             <div class="container text-center">
-                <div>img profilo</div>
+                <img class="img-fluid" src="img/avatar.svg" alt="avatar">
                 <h1 class="fw-bolder my-4">START BOOTSTRAP</h1>
-                <ul class="row list-unstyled justify-content-center">
-                    <li class="col text-end">linea</li>
-                    <li class="col">Stella</li>
-                    <li class="col text-start">linea</li>
-                </ul>
-                <ul class="row list-unstyled justify-content-center fw-bold mt-4">
-                    <li class="col p-0 text-end">GRAPHIC ARTIST</li>
-                    <li class="col p-0">-WEB DESIGNER-</li>
-                    <li class="col p-0 text-start">ILLUSTRATOR</li>
-                </ul>
+                <div class="ms-bars">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="fw-bold mt-3">
+                    GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                </div>
             </div>
             <!-- /container responsive-->
         </section>
@@ -52,48 +53,46 @@
             <!-- container responsive -->
             <div class="container text-center">
                 <h2>PORTFOLIO</h2>
-                <ul class="row list-unstyled justify-content-center mt-5 mb-4">
-                    <li class="col text-end">linea</li>
-                    <li class="col">Stella</li>
-                    <li class="col text-start">linea</li>
-                </ul>
+                <div class="ms-bars my-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <!-- Row flex with 6 box -->
-                <div class="row">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-4">
                     <!-- box 1 -->
-                    <div class="col-12 col-md-6 col-xl-4 my-2">
-                        <div class="box c-1 rounded">
-                            image
+                    <div class="col">
+                        <div class="ms-card">
+                          <img src="img/cabin.png" alt="" class="img-fluid">  
                         </div>
                     </div>
                     <!-- box 2 -->
-                    <div class="col-12 col-md-6 col-xl-4 my-2">
-                        <div class="box c-2 rounded">
-                            image
+                    <div class="col">
+                        <div class="ms-card">
+                            <img src="img/cake.png" alt="" class="img-fluid">
                         </div>
                     </div>
                     <!-- box 3 -->
-                    <div class="col-12 col-md-6 col-xl-4 my-2">
-                        <div class="box c-3 rounded">
-                            image
-                        </div>
+                    <div class="col">
+                        <div class="ms-card">
+                            <img src="img/circus.png" alt="" class="img-fluid ">
+                        </div>    
                     </div>
                     <!-- box 4 -->
-                    <div class="col-12 col-md-6 col-xl-4 my-2">
-                        <div class="box c-4 rounded">
-                            image
+                    <div class="col">
+                        <div class="ms-card">
+                            <img src="img/game.png" alt="" class="img-fluid">
                         </div>
                     </div>
                     <!-- box 5 -->
-                    <div class="col-12 col-md-6 col-xl-4 my-2">
-                        <div class="box c-5 rounded">
-                            image
+                    <div class="col">
+                        <div class="ms-card">
+                            <img src="img/safe.png" alt="" class="img-fluid">
                         </div>
                     </div>
                     <!-- box 6 -->
-                    <div class="col-12 col-md-6 col-xl-4 my-2">
-                        <div class="box c-6 rounded">
-                            image
-                        </div>
+                    <div class="col">
+                        <div class="ms-card">
+                            <img src="img/submarine.png" alt="" class="img-fluid">
+                        </div>                   
                     </div>
                 </div>
                 <!-- /row flex with 6 box -->
@@ -101,16 +100,15 @@
             <!-- /container responsive -->
         </section>
         <!-- /Sezione Portfolio -->
+        
         <!-- Sezione About -->
         <section id="about">
             <!-- container responsive -->
             <div class="container">
                 <h3 class="text-center fw-bolder mb-4">ABOUT</h3>
-                <ul class="row list-unstyled justify-content-center mt-5 mb-4 text-center">
-                    <li class="col text-end">linea</li>
-                    <li class="col">Stella</li>
-                    <li class="col text-start">linea</li>
-                </ul>
+                <div class="ms-bars text-center my-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <!-- row flex with 2 paragraph -->
                 <div class="row px-5 mb-5">
                     <p class="col-12 col-md-6">
@@ -136,11 +134,9 @@
             <!-- Container responsive -->
             <div class="container">
                 <h4 class="text-center fw-bolder">CONTACT ME</h4>
-                <ul class="row list-unstyled justify-content-center mt-5 mb-4 text-center">
-                    <li class="col text-end">linea</li>
-                    <li class="col">Stella</li>
-                    <li class="col text-start">linea</li>
-                </ul>
+                <div class="ms-bars text-center my-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <!-- Form -->
                 <div class="border-bottom mx-5">
                     FORM
