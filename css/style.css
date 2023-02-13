@@ -78,6 +78,9 @@ section:nth-of-type(2n+1){
     color: white;
     font-weight: bold;
 }
+textarea{
+    height: 300px!important;
+}
 /* /Section: Contact me */
 /* -------- */
 
