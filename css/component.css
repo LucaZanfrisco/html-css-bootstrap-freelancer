@@ -1,12 +1,12 @@
-.ms-card{
+.ms_card{
     overflow: hidden;
     border-radius: 30px;
 }
-.ms-card > img{
+.ms_card > img{
     max-width: 100%;
     height: auto;
 }
-.ms-bars::before{
+.ms_bars::before{
     content: "";
     height: .1875rem;
     width: 6.25rem;
@@ -14,11 +14,20 @@
     background-color: white;
     display: inline-block;
 }
-.ms-bars::after{
+.ms_bars::after{
     content: "";
     height: .1875rem;
     width: 6.25rem;
     vertical-align: middle;
     background-color: white;
     display: inline-block;
+}
+.ms_btn{
+    background-color: transparent;
+    border: .0625rem solid white;
+    padding: .625rem 1.25rem;
+    border-radius: .625rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
 }

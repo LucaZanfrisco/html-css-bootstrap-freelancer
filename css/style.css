@@ -43,8 +43,8 @@ section:nth-of-type(2n+1){
 #portfolio .container{
     max-width: 1140px;
 }
-#portfolio .ms-bars::after,
-#portfolio .ms-bars::before
+#portfolio .ms_bars::after,
+#portfolio .ms_bars::before
 {
     background-color: black;
 }
@@ -69,8 +69,8 @@ section:nth-of-type(2n+1){
 #contact .container{
     max-width: 650px;
 }
-#contact .ms-bars::after,
-#contact .ms-bars::before{
+#contact .ms_bars::after,
+#contact .ms_bars::before{
     background-color: black;
 }
 /* /Section: Contact me */
